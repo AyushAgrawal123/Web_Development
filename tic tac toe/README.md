@@ -1,3 +1,5 @@
+# link to the website published
+https://ayushagrawal123.github.io/Web_Development/tic%20tac%20toe/
 # Tic Tac Toe Game
 
 ## Overview

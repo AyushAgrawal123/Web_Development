@@ -28,7 +28,7 @@ Feel free to explore and enjoy a round of Tic Tac Toe!
 
 ## Screenshots
 
-![Game Screenshot](./screenshots/game.png)
+![Game Screenshot](screenshot.png)
 
 ## Contributing
 

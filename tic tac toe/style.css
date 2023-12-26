@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #3081d2;
+    height: 100%;
+    width: 100%;
+}
+
+
+.title {
+    margin-top: 10px;
+    font-size: 4vw;
+    color: white;
+}
+
+.container {
+    /* background-color: blue; */
+    min-width: 100vw;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.game {
+
+    /* background-color: aqua; */
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 5vh;
+    gap: 5px;
+}
+
+.box {
+    height: 32%;
+    width: 26%;
+    border-radius: 10px;
+    background-color: #07033d;
+    color: green;
+    font-weight: bold;
+    font-size: 7vw;
+    border: none;
+    box-shadow: .5vw .5vw;
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: #2c3e50;
+}
+
+
+.msg {
+    margin-top: 1vh;
+    font-size: 3vw;
+    color: white;
+}
+
+.btn-grp {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.new-game {
+    height: 60px;
+    width: 130px;
+    background-color: #07033d;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    transition: all ease .5s;
+
+}
+
+.new-game:hover {
+    background-color: #2c3e50;
+    transform: scale(1.05);
+}
+
+@media (max-width: 800px) {
+    .game {
+        gap: 5px;
+        width: 80%;
+    }
+
+    .box {
+        height: 25%;
+        width: 32%;
+        font-size: 10vw;
+    }
+
+    .new-game {
+        height: 40px;
+        width: 100%;
+        max-width: 150px;
+        font-size: 0.9rem;
+    }
+
+    .title {
+        font-size: 9vw;
+    }
+
+    .msg {
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .game {
+        gap: 5px;
+        width: 80%;
+    }
+
+    .box {
+        height: 25%;
+        width: 32%;
+        font-size: 11vw;
+    }
+
+    .new-game {
+        height: 40px;
+        width: 100%;
+        max-width: 150px;
+        font-size: 0.9rem;
+    }
+
+    .title {
+        font-size: 11vw;
+    }
+
+    .msg {
+        font-size: 10vw;
+    }
+}
+
+@media (max-width:313px) {
+    .box {
+        height: 15%;
+        width: 25%;
+        font-size: 11vw;
+    }
+
+}

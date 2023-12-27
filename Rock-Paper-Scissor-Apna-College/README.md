@@ -4,7 +4,8 @@ Welcome to the Rock Paper Scissors game! This project is a simple web-based impl
 
 ## Demo
 
-Check out the live demo [here](https://ayushagrawal123.github.io/Web_Development/Rock-Paper-Scissor-Apna-College/).
+Check out the live demo here
+https://ayushagrawal123.github.io/Web_Development/Rock-Paper-Scissor-Apna-College/
 
 ## Features
 

@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    /* background-color: ;
+     */
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 651px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 260px;
+    height: 400px;
+    /* box-shadow:6px rgb(224, 234, 243); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.signup-link {
+    background-color: white;
+    width: 260px;
+    height: 35px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signup-link p {
+    /* font-size: 1.1rem; */
+    font-weight: bold;
+}
+
+button {
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    border-radius: 7px;
+    /* background-color: rgb(102, 85, 248); */
+    height: 30px;
+    width: auto;
+    font-weight: bold;
+    font-size: medium;
+    cursor: progress;
+
+}
+
+button:hover {
+    background-color: white;
+    transform: scale(1.1);
+    transition: linear;
+}
+
+img {
+    height: 80px;
+    width: auto;
+}
+
+.login p img {
+    height: 18px;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+.login p a {
+    margin-left: 4px;
+    margin-top: -3px;
+
+}
+
+p {
+    margin: 10px;
+}

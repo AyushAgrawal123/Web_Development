@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    transition: background-color 1s ease;
+    /* Smooth background color transition */
+}
+
+.time-box {
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+}
+
+.btn button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Smooth button color transition */
+}
+
+#start-btn {
+    background-color: green;
+    color: white;
+}
+
+#stop-btn {
+    background-color: red;
+    color: white;
+}

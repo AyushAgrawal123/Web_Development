@@ -8,7 +8,7 @@ Welcome to the Instagram Login Page Replica project! This project aims to recrea
 
 1. **Visit the Replica:**
    - Open your web browser and navigate to the provided Instagram Login Replica
-   insert_link_to_your_github_pages_here pag
+   https://ayushagrawal123.github.io/Web_Development/Instagram-Login-Page/
 
 2. **Explore the Login Page:**
    - Familiarize yourself with the login form, resembling the official Instagram login page.
